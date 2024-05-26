@@ -1,6 +1,13 @@
 # datafun-05-sql
 CC5.1: Start a new Project
 
++ Create a GitHub project repository with a default README.md.
++ Clone your repo down to your machine. 
++ Open your project folder in VS Code (if you haven't already).
++ Add a useful .gitignore with a line for .vsode/ and .venv/ and whatever else doesn't need to go in the repo. 
+
+## How to Install and Run the Project
+
 ### Clone Your Repo
 
 ```shell
