@@ -21,7 +21,7 @@ def create_tables():
     """Function to read and execute SQL statements to create tables"""
     try:
         with sqlite3.connect(db_file) as conn:
-            sql_file = "C:\Users\Britt\Documents\df44608\datafun-05-sql\sql\create_tables.sql"
+            sql_file = "C:\\Users\\Britt\\Documents\\df44608\\datafun-05-sql\\sql\\create_tables.sql"
             with open(sql_file, "r") as file:
                 sql_script = file.read()
             conn.executescript(sql_script)
