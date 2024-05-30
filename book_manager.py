@@ -1,5 +1,5 @@
 import sqlite3
-import pandas as pd
+import pandas as pd 
 import pathlib
 
 # Define the database file in the current root project directory
@@ -21,7 +21,7 @@ def create_tables():
     """Function to read and execute SQL statements to create tables"""
     try:
         with sqlite3.connect(db_file) as conn:
-            sql_file = "C:\\Users\\Britt\\Documents\\df44608\\datafun-05-sql\\sql\\create_tables.sql"
+            sql_file = "C:\\Users\\Britt\\Documents\\44608\\datafun-05-sql\\sql\\create_tables.sql"
             with open(sql_file, "r") as file:
                 sql_script = file.read()
             conn.executescript(sql_script)
