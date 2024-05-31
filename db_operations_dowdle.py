@@ -94,7 +94,7 @@ def query_filter():
             cursor = conn.execute(sql_script)
             books = cursor.fetchall()
             for book in books:
-                print(book[1], book[2])
+                print(book[1], book[2],)
     except sqlite3.Error as e:
         print("Error filtering book data:", e)        
         
@@ -125,7 +125,7 @@ def query_group_by():
             cursor = conn.cursor()
             cursor.execute(sql_script)
             results = cursor.fetchall()
-            print("Length of Title Group\tCount of Books:")
+            print("Length of Title Group:\tCount of Books:")
             for row in results:
                 print(f"{row[0]}\t\t{row[1]}")
             print("Query executed successfully.")
