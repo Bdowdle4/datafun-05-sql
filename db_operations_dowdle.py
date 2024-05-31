@@ -76,10 +76,10 @@ def query_aggregation():
                 sql_script = file.read()
             cursor = conn.execute(sql_script)
             result = cursor.fetchone()
-            print("Total Books:")
-            print("Average Year Published:")
-            print("Oldest Book Published:")
-            print("Newest Book Published:")
+            print("Total Books:", result[0])
+            print("Average Year Published:", round(result[1]))
+            print("Oldest Book Published:", round(result[1]), "characters.")
+            print("Newest Book Published:", round(result[1]), "characters.")
     except sqlite3.Error as e:
         print("Error querying aggregation for books:", e)
 
