@@ -136,13 +136,13 @@ def query_group_by():
 def query_join():
     try:
         with sqlite3.connect(db_file) as conn:
-            sql_file = pathlib.Path("query_join.sql")
+            sql_file = "C:\\Users\\Britt\\Documents\\44608\\datafun-05-sql\\sql\\query_join.sql"
             with open(sql_file, "r") as file:
                 sql_script = file.read()
             cursor = conn.execute(sql_script)
             rows = cursor.fetchall()
             for row in rows:
-                print(f"Author's First Name: {row[0]}, Title: {row[3]}")
+                print(f"First Name: {row[0]}, Last Name: {row[1]}, Title: {row[2]}, Year Published: {row[3]}")
             print("Query executed successfully.")
     except sqlite3.Error as e:
         print("Error executing query:", e)
