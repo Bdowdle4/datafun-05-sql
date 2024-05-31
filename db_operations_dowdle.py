@@ -76,7 +76,7 @@ def query_aggregation():
                 sql_script = file.read()
             cursor = conn.execute(sql_script)
             result = cursor.fetchone()
-            print("Total Authors:")
+            print("Total Books:")
             print("Average Year Published:")
             print("Oldest Book Published:")
             print("Newest Book Published:")
