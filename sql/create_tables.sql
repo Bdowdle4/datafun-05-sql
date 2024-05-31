@@ -1,3 +1,4 @@
+-- 1. create_tables.sql - create your database schema using sql
 -- Start by deleting any tables if the exist already
 -- We want to be able to re-run this script as needed.
 -- DROP tables in reverse order of creation 
