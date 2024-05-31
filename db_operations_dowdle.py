@@ -147,6 +147,14 @@ def query_join():
     except sqlite3.Error as e:
         print("Error executing query:", e)
 
+# Python and SQL Integration
+def execute_sql_from_file(db_filepath, sql_file):
+    with sqlite3.connect(db_filepath) as conn:
+        with open(sql_file, 'r') as file:
+            sql_script = file.read()
+        conn.executescript(sql_script)
+        print(f"Executed SQL from {sql_file}")
+
 # Define Main Function for SQL Operations Script
 def main():
     insert_data_from_csv()
