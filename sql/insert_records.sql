@@ -1,7 +1,7 @@
 -- 2. insert_records.sql - insert at least 10 additional records into each table.
 
 -- inserts the following data into authors
-INSERT INTO authors (author_id, first_name, last_name) VALUES
+INSERT INTO authors (author_id, first, last) VALUES
 ('10f88232-2bf8-4d88-a6a2-dfcebb22a596', 'Arthur', 'Conan Doyle'),
 ('c3a47e85-3b7c-4196-a7a8-8b55d8fc1f70', 'James', 'Hogg'),
 ('e0b75863-977e-4db4-85c7-df9bb8ee6dab', 'Bram', 'Stoker'),
