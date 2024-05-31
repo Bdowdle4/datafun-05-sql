@@ -6,6 +6,7 @@
 import sqlite3
 import pandas as pd
 import pathlib
+import logging
 
 # Define the database file in the current root project directory
 db_file = "C:\\Users\\Britt\\Documents\\44608\\datafun-05-sql\\project.db"
@@ -158,5 +159,9 @@ def main():
     query_group_by()
     query_join()
 
+logging.info("All SQL operations completed successfully")
+
 if __name__ == "__main__":
+    logging.info("Program started") # add this at the beginning of the main method
     main()
+    logging.info("Program ended")  # add this at the end of the main method

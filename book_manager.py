@@ -59,5 +59,9 @@ def main():
     create_tables()
     insert_data_from_csv()
 
+logging.info("All SQL operations completed successfully")
+
 if __name__ == "__main__":
+    logging.info("Program started") # add this at the beginning of the main method
     main()
+    logging.info("Program ended")  # add this at the end of the main method
