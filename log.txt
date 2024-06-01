@@ -1,0 +1,10 @@
+2024-05-31 18:17:24,867 - INFO - Program started
+2024-05-31 18:17:24,867 - INFO - Program ended
+2024-05-31 18:17:24,867 - INFO - All SQL operations completed successfully
+2024-05-31 18:17:24,867 - INFO - Program started
+2024-05-31 18:17:25,081 - INFO - Program ended
+2024-05-31 18:22:26,007 - INFO - Program started
+2024-05-31 18:22:26,007 - INFO - Program ended
+2024-05-31 18:22:26,007 - INFO - All SQL operations completed successfully
+2024-05-31 18:22:26,007 - INFO - Program started
+2024-05-31 18:22:26,205 - INFO - Program ended

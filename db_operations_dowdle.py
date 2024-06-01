@@ -1,12 +1,23 @@
-# Project 5: Python and SQL
-# This filentegrates Python and SQL, focusing on database interactions 
-# using SQLite.
+''' Project 5: Python and SQL
+Brittany Dowdle   5/31/2024
+
+Objective
+Create a Python script that demonstrates the ability to interact with a SQL database, including creating a database,
+defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user
+feedback. '''
+
 
 # import dependencies
 import sqlite3
 import pandas as pd
 import pathlib
 import logging
+
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Program started") # add this at the beginning of the main method
+logging.info("Program ended")  # add this at the end of the main method
 
 # Define the database file in the current root project directory
 db_file = "C:\\Users\\Britt\\Documents\\44608\\datafun-05-sql\\project.db"
