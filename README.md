@@ -66,10 +66,10 @@ CC5.3 Plan the Project / Gather Data
 + Create subfolder for data files
 + Create 2 .csv files in data folder
 
->![Screenshot of VS Code root folder options to create subfolders](https://1drv.ms/i/c/2cdc775a7ae09336/EWCC3gLyn3FEtRseLOv7nnQB3X1__nMI_1IbIHRN4-QE6g?e=ahqDge)
+>![Screenshot of VS Code root folder options to create subfolders](https://github.com/Bdowdle4/datafun-05-sql/blob/main/Screenshots/Screenshot%202024-05-31%20184726.png)
 > To create the subfolders sql and data, click on the second icon from the left with the + sign.
 
->![Screenshot of VS Code subfolder options to create files](https://1drv.ms/i/c/2cdc775a7ae09336/ET4vEfn6dsJEpxywgMOnk8gBecaWUlx7zi-62-PWVpiriQ?e=26RsxY)
+>![Screenshot of VS Code subfolder options to create files](https://github.com/Bdowdle4/datafun-05-sql/blob/main/Screenshots/Screenshot%202024-05-31%20185302.png)
 > To create the files in the data folder, click onto the folder, then click on the first icon from the left with the + sign.
 
 CC5.4 Initialize the Database
@@ -78,7 +78,7 @@ CC5.4 Initialize the Database
 + Create a .py file to store your script
 + Create a .db file to define your database
 
->![Screenshot of VS Code root folder containing new files created following the steps in previous CC5.3 Notice how each type of file receives its own icon. This visual reference helps to access files quickly](https://1drv.ms/i/c/2cdc775a7ae09336/ETQ0LVLFTOdFrigCtF6gXUUBwjBxUvm0BQhJssoGXgEfYg?e=42zBdm)
+>![Screenshot of VS Code root folder containing new files created following the steps in previous CC5.3 Notice how each type of file receives its own icon. This visual reference helps to access files quickly](https://github.com/Bdowdle4/datafun-05-sql/blob/main/Screenshots/Screenshot%202024-05-31%20190241.png)
 > You will need to use an extension or search the web for a SQL viewer to see the output of the .sql files.
 > I am using the SQLite Viewer extension offered in VS Code.
 
