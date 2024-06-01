@@ -66,10 +66,10 @@ CC5.3 Plan the Project / Gather Data
 + Create subfolder for data files
 + Create 2 .csv files in data folder
 
->![Screenshot of VS Code root folder options to create subfolders](https://photos.onedrive.com/photo/2CDC775A7AE09336!s02de82609ff24471b51b1e2cebfb9e74?view=all)
+>![Screenshot of VS Code root folder options to create subfolders](C:\Users\Britt\OneDrive\Pictures\Screenshots\Screenshot 2024-05-31 184726.png)
 > To create the subfolders sql and data, click on the second icon from the left with the + sign.
 
->![Screenshot of VS Code subfolder options to create files](https://photos.onedrive.com/photo/2CDC775A7AE09336!sf9112f3e76fa44c2a71cb080c3a793c8?view=all)
+>![Screenshot of VS Code subfolder options to create files](C:\Users\Britt\OneDrive\Pictures\Screenshots\Screenshot 2024-05-31 185302.png)
 > To create the files in the data folder, click onto the folder, then click on the first icon from the left with the + sign.
 
 CC5.4 Initialize the Database
@@ -78,7 +78,7 @@ CC5.4 Initialize the Database
 + Create a .py file to store your script
 + Create a .db file to define your database
 
->![Screenshot of VS Code root folder containing new files created following the steps in previous CC5.3 Notice how each type of file receives its own icon. This visual reference helps to access files quickly](https://photos.onedrive.com/photo/2CDC775A7AE09336!s522d34344cc545e7ae2802b45ea05d45?view=all)
+>![Screenshot of VS Code root folder containing new files created following the steps in previous CC5.3 Notice how each type of file receives its own icon. This visual reference helps to access files quickly](C:\Users\Britt\OneDrive\Pictures\Screenshots\Screenshot 2024-05-31 190241.png)
 > You will need to use an extension or search the web for a SQL viewer to see the output of the .sql files.
 > I am using the SQLite Viewer extension offered in VS Code.
 
