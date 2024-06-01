@@ -82,7 +82,7 @@ CC5.4 Initialize the Database
 
 >![Screenshot of VS Code root folder containing new files created following the steps in previous CC5.3 Notice how each type of file receives its own icon. This visual reference helps to access files quickly](https://github.com/Bdowdle4/datafun-05-sql/blob/main/Screenshots/Screenshot%202024-05-31%20190241.png)
 >
-> You will need to use an extension or search the web for a SQL viewer to see the output of the .sql files.
+> You will need to use an extension or search the web for a SQL viewer to see the output of the .sql statements in the .db file.
 > I am using the SQLite Viewer extension offered in VS Code.
 
 ### Logging
